@@ -19,8 +19,9 @@ function MovieDetail() {
         <>
             <h1>Movie Details</h1>
             <button onClick={toHomePage}>Back To List</button>
-            <div>{details.title}</div>
-            <div>{details.description}</div>
+            <p>{details.title}</p>
+            <img src={details.poster}/>
+            <p>{details.description}</p>
 
 
 

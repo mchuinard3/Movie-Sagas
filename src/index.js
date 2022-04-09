@@ -60,7 +60,7 @@ const movies = (state = [], action) => {
 const details = (state = [], action) => {
     switch (action.type) {
         case 'SET_DETAILS':
-            return action.payload; //.data[0]
+            return action.payload.data[0]; 
         default:
             return state;
     }
