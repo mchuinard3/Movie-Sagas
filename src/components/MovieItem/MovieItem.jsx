@@ -11,6 +11,7 @@ function MovieItem({ movie }) {
 
     const handleDetails = () => {
         dispatch({ type: 'FETCH_DETAILS', payload: movie.id });
+        
         history.push('/details');
     }
 
@@ -24,6 +25,8 @@ function MovieItem({ movie }) {
                 <h3>{movie.title}</h3>
                 <img src={movie.poster} alt={movie.title}
                     onClick={handleDetails} />
+
+                    
             </div>
 
 
