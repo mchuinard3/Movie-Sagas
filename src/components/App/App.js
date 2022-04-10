@@ -4,6 +4,10 @@ import MovieList from '../MovieList/MovieList'
 import React from 'react';
 import MovieDetail from '../MovieDetail/MovieDetail';
 
+/*
+This component contains the route path for the 
+home page, as well as the movie details page.
+*/
 function App() {
   return (
     <div className="App">

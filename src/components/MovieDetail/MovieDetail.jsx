@@ -2,6 +2,12 @@ import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 import React from 'react';
 
+/*
+This component displays the button on the DOM that takes
+the user back to the home page. It also displays the title,
+poster, description, and genres of the movie that the user 
+clicks on.
+*/
 function MovieDetail() {
 
     const details = useSelector(store => store.details);
