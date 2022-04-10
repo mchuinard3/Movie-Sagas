@@ -31,7 +31,6 @@ function MovieDetail() {
             {genres.map((genre, i) => {
                 return (
                     <p key={i}>
-
                         {genre.name}
                     </p>
                 );
