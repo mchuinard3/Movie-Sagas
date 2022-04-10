@@ -20,9 +20,10 @@ function MovieDetail() {
 
     return (
 
-        <>
+        <div className="details">
+
             <h1>Movie Details</h1>
-            <button onClick={toHomePage}>Back To List</button>
+            <button className="detailsButton" onClick={toHomePage}>Back To List</button>
             <p>{details.title}</p>
             <img src={details.poster} />
             <p>{details.description}</p>
@@ -35,7 +36,8 @@ function MovieDetail() {
                     </p>
                 );
             })}
-        </>
+
+        </div>
     )
 }
 
