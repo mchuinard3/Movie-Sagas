@@ -21,15 +21,12 @@ function MovieList() {
                         <MovieItem
                             key={i}
                             movie={movie} />
-
                     );
-
                 })}
             </section>
         </main>
 
     );
-
 }
 
 export default MovieList;

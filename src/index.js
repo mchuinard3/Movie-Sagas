@@ -10,12 +10,10 @@ import logger from 'redux-logger';
 import createSagaMiddleware from 'redux-saga';
 import { takeEvery, put } from 'redux-saga/effects';
 import axios from 'axios';
-
 // Create the rootSaga generator function
 function* rootSaga() {
     yield takeEvery('FETCH_MOVIES', fetchAllMovies);
     yield takeEvery('FETCH_DETAILS', fetchDetails);
-    
 }
 
 function* fetchDetails(action) {
@@ -40,13 +38,6 @@ function* fetchDetails(action) {
     }
 }
 
-    
-    
-   
-
-
-
-
 function* fetchAllMovies() {
     // get all movies from the DB
     try {
@@ -57,7 +48,6 @@ function* fetchAllMovies() {
     } catch {
         console.log('get all error');
     }
-
 }
 
 // Create sagaMiddleware
