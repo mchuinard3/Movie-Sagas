@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -19,8 +23,13 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .movies {
@@ -30,6 +39,7 @@
   padding-bottom: 10px;
   box-shadow: 0 4px 8px 0;
   padding: 2px 16px;
+  text-align: center;
 }
 
 .movies:hover {
