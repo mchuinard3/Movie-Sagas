@@ -26,14 +26,22 @@
 .movies {
   background-color: black;
   color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .details {
   background-color: black;
   color: white;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .detailsButton {
   background-color: green;
   color: white;
+  font-size: 15px;
+  border-radius: 100px;
+  border: 2px solid white;
 }
